@@ -1,0 +1,85 @@
+body {
+  background-color: #013955;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  float: right;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+#logo {
+  width: 250px;
+}
+
+#btnBox {
+  margin-top: 32%;
+}
+
+.btn {
+  margin-top: 15px;
+  display: block;
+  height: 50px;
+  width: 175px;
+  border: none;
+  background-color: #a9a8a8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #99226d;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  top: 680px;
+  /* width: 100%; */
+  width: 100vw;
+}
+
+#websiteLink {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+#websiteLink,
+.zoomLink {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#websiteLink:hover,
+.zoomLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#zoomBox {
+  /* text-align: center; */
+  float: right;
+  margin-right: 24%;
+}
+
+.zoomLink {
+  margin-left: 80px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+#iconBox {
+  float: right;
+}
+
+.fab {
+  margin-right: 20px;
+  /* width: 30px; */
+  color: #ffffff;
+}
